@@ -1,0 +1,223 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+@media only screen and (max-width: 600px) {
+
+  /* Agrega tus estilos aquí */
+  body {
+    font-size: 16px;
+    background-image: url("../img/background.jpg");
+    background-color: rgba(0, 0, 0, 0.7);
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+  .btnmovil{
+    margin-top: 5%;
+  }
+}
+
+
+.editor{
+  color: black;
+  border-color: black;
+}
+
+.edicion{
+  color: black;
+}
+
+.color-navbar {
+  background-color: blue;
+  font-family: monospace;
+  font-size: large;
+}
+
+body {
+  background-image: url("../img/background.jpg");
+  background-color: rgba(0, 0, 0, 0.7);
+  background-blend-mode: multiply;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.msj_alert {
+  font-family: "Oswald", sans-serif;
+  font-size: medium;
+  text-align: justify;
+}
+
+.text-container {
+  padding: 20px;
+  color: black;
+}
+
+.container {
+  color: wheat;
+  margin-top: 50px;
+}
+
+.titulo-logeo {
+  font-size: 67px;
+  font-family: "Oswald", sans-serif;
+}
+
+.miss {
+  background-color: transparent;
+}
+
+.input-group-text {
+  color: white;
+  background-color: transparent;
+}
+
+.boton-iniciar-sesion {
+  align-items: center;
+  font-family: "Oswald", sans-serif;
+}
+
+.presentacion {
+  background-image: url('../img/yaneth.jpeg');
+  background-color: rgba(0, 0, 0, 0.1);
+  background-blend-mode: multiply;
+  max-width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-bottom: 200px;
+  margin-top: 5%;
+}
+
+.move {
+  color: white;
+  position: absolute;
+  top: 200px;
+  left: 65%;
+}
+
+.zonas {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  margin-top: 5%;
+  background-color: whitesmoke;
+}
+
+.icono-derecha {
+  position: relative;
+  left: 90%;
+  bottom: 35px;
+  width: 20px;
+}
+
+.columna-zonas {
+  position: relative;
+  bottom: 50px;
+  color: black;
+  text-align: left;
+  font-size: 5px;
+}
+
+legend {
+  color: gray;
+  font-size: 10px;
+}
+
+.presentacion-perfil {
+  background-image: url("../img/portada-perfil.jpeg");
+  background-color: rgba(0, 0, 0, 0.1);
+  background-blend-mode: multiply;
+  max-width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-bottom: 70px;
+  margin-top: 5%;
+}
+
+
+
+.bi-journal-bookmar {
+  size: 40px;
+  width: 200px;
+  height: 300px;
+}
+
+
+
+.form-control::placeholder {
+  color: white;
+}
+
+td {
+  padding: 20px;
+}
+
+
+@media only screen and (min-width: 1199.98px) {
+  .opciones-perfil {
+    margin-left: 15px;
+    color: black;
+    font-size: 20px;
+
+    margin-bottom: 5%;
+    font-family: "Lato", sans-serif;
+    font-family: "Oswald", sans-serif;
+  }
+
+}
+
+@media only screen and (max-width: 600px) {
+
+
+
+  table,
+  thead,
+  tbody,
+  th,
+  td,
+  tr {
+    display: block;
+  }
+
+  .telefono{
+    width: 20px;
+    height: 20px;
+  }
+  .opciones-perfil {
+    margin-left: 10px;
+    color: black;
+    font-size: 20px;
+
+    margin-bottom: 5%;
+    font-family: "Lato", sans-serif;
+    font-family: "Oswald", sans-serif;
+  }
+
+  /* Estilos para las cabeceras de la tabla en dispositivos móviles */
+  thead tr {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+  }
+
+  tr {
+    border: 1px solid #ccc;
+  }
+
+  td {
+    border: none;
+    border-bottom: 1px solid #eee;
+    position: relative;
+    padding-left: 10%;
+  }
+
+  /* Estilos para las columnas en dispositivos móviles */
+  td:before {
+    position: absolute;
+    top: 6px;
+    left: 6px;
+    width: 45%;
+    padding-right: 10px;
+    white-space: nowrap;
+  }
+  
+}
