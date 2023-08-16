@@ -40,7 +40,6 @@ if (isset($_POST['btn_enviar'])) {
     values( null,'$Nombre','$Descripcion','$repo1','$DIRECCION','$repo2',$Precio,$Estado);";
     mysqli_query($mysqli, $query);
     header('Location:../administrador_insercion.php?active=1');
-
 } elseif (isset($_POST['btnsubmit'])) {
     if ($_FILES["archivo"]["error"] == UPLOAD_ERR_OK) {
         $nombre_archivo = $_FILES["archivo"]["name"];
@@ -57,15 +56,14 @@ if (isset($_POST['btn_enviar'])) {
     $query = "insert into imagenes values( null,'$ruta_archivo',$dato1);";
     mysqli_query($mysqli, $query);
     header('Location:../insertimgadmin.php?active=1');
-}
-elseif (isset($_POST['btnregistrar'])) {
-    $usuario=$_POST['txtusuarior'];
-    $mail=$_POST['txtmailr'];
-    $password= $_POST['txtpasswordr'];
-    $tel=$_POST['txttelr'];
-    $query="INSERT INTO USUARIO VALUES(NULL,'$usuario','$password','$mail','$tel',1,1)";
-    mysqli_query($mysqli,$query);
+} elseif (isset($_POST['btnregistrar'])) {
+    $usuario = $_POST['txtusuarior'];
+    $mail = $_POST['txtmailr'];
+    $password = $_POST['txtpasswordr'];
+    $tel = $_POST['txttelr'];
+    $query = "INSERT INTO USUARIO VALUES(NULL,'$usuario','$password','$mail','$tel',1,1)";
+    mysqli_query($mysqli, $query);
     header('Location:../registrarse.php?exito=1');
-}
+} 
 
     ?>
