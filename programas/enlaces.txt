@@ -1,0 +1,2 @@
+https://sourceforge.net/projects/xampp/files/XAMPP%20Windows/8.2.4/xampp-windows-x64-8.2.4-0-VS16-installer.exe
+https://www.heidisql.com/installers/HeidiSQL_12.5.0.6677_Setup.exe
